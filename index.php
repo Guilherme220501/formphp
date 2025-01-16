@@ -8,7 +8,7 @@
     <title>Formulário</title>
 </head>
 <style>
-body{margin: auto;align-items: center;justify-content: center;text-align: center;background: linear-gradient(to right blue,black,blue);}
+body{margin: auto;align-items: center;justify-content: center;text-align: center;background: linear-gradient(to right, blue, black, blue);}
 h1{text-decoration: underline;white-space: nowrap;text-shadow: 9px;color: white;font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;}
 h2{text-decoration: none;white-space: nowrap;text-shadow: 9px;color: black;font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;}
 p{text-shadow: 9px;font-size: 16px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: inherit;color: black;}
@@ -235,7 +235,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     <?php
     $host="127.0.0.1";
     $dbname="formguibarbosasilva";
-    $username="formulario-gui";
+    $username="formdogui";
     $password="";
     $conn=mysqli_connect($host,$username,$password,$dbname);
     $nome=$_POST['nome']??null;
@@ -255,7 +255,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     $nivel_social=$_POST['nivel_social']??null;
     $signo=$_POST['signo']??null;
     $experience_text=$_POST['experience_text']??null;
-    $sql = "INSERT INTO formulario-gui (nome, idade, cpf, rg, genero, cep, email, telefone, endereco, data_nasc, data_hora, classe_social, experiencia, conhecimento, nivel_social, signo, experience_text)
+    $sql = "INSERT INTO formdogui (nome, idade, cpf, rg, genero, cep, email, telefone, endereco, data_nasc, data_hora, classe_social, experiencia, conhecimento, nivel_social, signo, experience_text)
     VALUES ('$nome','$idade','$cpf','$rg','$genero','$cep','$email','$telefone','$endereco','$data_nasc','$data_hora','$classe_social','$experiencia','$conhecimento','$nivel_social','$signo','$experience_text')";
     if ($conn->query($sql) === TRUE) {
         echo "";
