@@ -65,7 +65,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     <input type="tel" name="telefone" id="Telefone" title="Digite seu Telefone" placeholder="Exemplo: (11) 98341-7590" pattern="" maxlength="30" required>
     <label for="Endereço">Endereço</label>
     <input type="text" name="endereco" id="Endereço" title="Digite seu Endereço" placeholder="Exemplo: Av Rio das Pedras Nª4100" pattern="" maxlength="30" required>
-    <label for="Data de Nacimento">Data de Nacimento</label>
+    <label for="Data de Nacimento">Data de Nascimento</label>
     <input type="date" name="data_nasc" id="Data de Nacimento" title="Digite sua Data de Nacimento" placeholder="Exemplo: 22/05/2001" pattern="" maxlength="30" required>
     <label for="Data e hora">Data e hora</label>
     <input type="datetime-local" name="data_hora" id="Data e hora" title="Digite seu Data e hora" placeholder="Exemplo: 22/05 ás 10AM" pattern="" maxlength="30" required>
@@ -200,6 +200,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     <p style="color:white;">Retorne para minha <a href="index.php" target="_blank" rel="external" style="text-shadow:9px;text-decoration:none;border-radius:10px 10px;font-size:14px;background-color:white;color:red;border:3px solid cyan;box-shadow:5px 5px 5px black;">1ªPágina</a></p>
     </nav>
     </div>
+    <br>
     <div class="footer">
     <footer style="background-color:darkred;">
     <p style="color:white;">@GuilhermeBarbosaDaSilva,todos os direitos reservados.</p>
