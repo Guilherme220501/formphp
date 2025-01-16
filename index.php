@@ -39,13 +39,13 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     <main>
     <fieldset>
     <label for="Nome">Nome</label>
-    <input type="text" name="nome" id="Nome" title="Digite seu Nome" placeholder="Exemplo: Guilherme Barbosa da Silva" pattern="" maxlength="30" required>
+    <input type="text" name="nome" id="Nome" placeholder="Exemplo: Guilherme Barbosa da Silva" maxlength="30" required>
     <label for="Idade">Idade</label>
     <input type="number" name="idade" id="Idade" title="Digite sua Idade" placeholder="Exemplo: 23 ou 36 anos ??" pattern="" maxlength="30" required>
     <label for="Cpf">Cpf</label>
-    <input type="text" name="cpf" id="Cpf" title="Digite seu Cpf" placeholder="Exemplo: 503.552.748-41" pattern="" maxlength="30" required>
+    <input type="text" name="cpf" id="Cpf" title="Digite seu Cpf" placeholder="Exemplo: 503.552.748-41" maxlength="30" required>
     <label for="RG">RG</label>
-    <input type="text" name="rg" id="RG" title="Digite seu RG" placeholder="Exemplo: 53.742.867-7" pattern="" maxlength="30" required>
+    <input type="text" name="rg" id="RG" title="Digite seu RG" placeholder="Exemplo: 53.742.867-7" maxlength="30" required>
     <label for="Sexo">Sexo</label>
     <select name="genero" id="Sexo" required style="width:150px;padding:3px;font-size:14px;background-color:white;color:blue;border:3px solid black;box-shadow:4px 4px 4px black;">
     <option value="" selected disabled>Selecione</option>
@@ -58,13 +58,13 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     </select>
     <br>
     <label for="Cep">Cep</label>
-    <input type="text" name="cep" id="Cep" title="Digite seu Cep" placeholder="Exemplo: 03936-000" pattern="" maxlength="30" required>
+    <input type="text" name="cep" id="Cep" title="Digite seu Cep" placeholder="Exemplo: 03936-000" maxlength="30" required>
     <label for="Email">Email</label>
-    <input type="email" name="email" id="Email" title="Digite seu Email" placeholder="Exemplo: guilherme8876sk@gmail.com" pattern="" maxlength="30" required>
+    <input type="email" name="email" id="Email" title="Digite seu Email" placeholder="Exemplo: guilherme8876sk@gmail.com" maxlength="30" required>
     <label for="Telefone">Telefone</label>
-    <input type="tel" name="telefone" id="Telefone" title="Digite seu Telefone" placeholder="Exemplo: (11) 98341-7590" pattern="" maxlength="30" required>
+    <input type="tel" name="telefone" id="Telefone" title="Digite seu Telefone" placeholder="Exemplo: (11) 98341-7590" maxlength="30" required>
     <label for="Endereço">Endereço</label>
-    <input type="text" name="endereco" id="Endereço" title="Digite seu Endereço" placeholder="Exemplo: Av Rio das Pedras Nª4100" pattern="" maxlength="30" required>
+    <input type="text" name="endereco" id="Endereço" title="Digite seu Endereço" placeholder="Exemplo: Av Rio das Pedras Nª4100" maxlength="30" required>
     <label for="Data de Nacimento">Data de Nascimento</label>
     <input type="date" name="data_nasc" id="Data de Nacimento" title="Digite sua Data de Nacimento" placeholder="Exemplo: 22/05/2001" pattern="" maxlength="30" required>
     <label for="Data e hora">Data e hora</label>
@@ -80,7 +80,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     <input type="radio" name="classe_social" value="Classe A" required>
     <label for="Classe B" style="white-space:nowrap;text-shadow:9px;color:white;font-size:14px;">Classe B</label>
     <input type="radio" name="classe_social" value="Classe B" required>
-    <label for="Classe C" style="white-space:nowrap;text-shadow:9px;font-size:14px;color:black;">Classe C</label>
+    <label for="Classe C" style="white-space:nowrap;text-shadow:9px;font-size:14px;color:white;">Classe C</label>
     <input type="radio" name="classe_social" value="Classe C" required>
     <label for="Classe D" style="white-space:nowrap;text-shadow:9px;color:white;font-size:14px;">Classe D</label>
     <input type="radio" name="classe_social" value="Classe D" required>
@@ -103,7 +103,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     <input type="radio" name="experiencia" value="Jovem" required>
     <label for="Iniciante" style="white-space:nowrap;text-shadow:9px;color:white;font-size:14px;">Iniciante</label>
     <input type="radio" name="experiencia" value="Iniciante" required>
-    <label for="Aprendiz" style="white-space:nowrap;text-shadow:9px;font-size:14px;color:black;">Aprendiz</label>
+    <label for="Aprendiz" style="white-space:nowrap;text-shadow:9px;font-size:14px;color:white;">Aprendiz</label>
     <input type="radio" name="experiencia" value="Aprendiz" required>
     <label for="Mediano" style="white-space:nowrap;text-shadow:9px;color:white;font-size:14px;">Mediano</label>
     <input type="radio" name="experiencia" value="Mediano" required>
@@ -126,7 +126,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     <input type="radio" name="conhecimento" value="Iniciante" required>
     <label for="Jovem" style="white-space:nowrap;text-shadow:9px;color:white;font-size:14px;">Jovem</label>
     <input type="radio" name="conhecimento" value="Jovem" required>
-    <label for="Aprendiz" style="white-space:nowrap;text-shadow:9px;font-size:14px;color:black;">Aprendiz</label>
+    <label for="Aprendiz" style="white-space:nowrap;text-shadow:9px;font-size:14px;color:white;">Aprendiz</label>
     <input type="radio" name="conhecimento" value="Aprendiz" required>
     <label for="Mediano" style="white-space:nowrap;text-shadow:9px;color:white;font-size:14px;">Mediano</label>
     <input type="radio" name="conhecimento" value="Mediano" required>
@@ -149,7 +149,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     <input type="radio" name="nivel_social" value="Base" required>
     <label for="Médio" style="white-space:nowrap;text-shadow:9px;color:white;font-size:14px;">Médio</label>
     <input type="radio" name="nivel_social" value="Médio" required>
-    <label for="Avançado" style="white-space:nowrap;text-shadow:9px;font-size:14px;color:black;">Avançado</label>
+    <label for="Avançado" style="white-space:nowrap;text-shadow:9px;font-size:14px;color:white;">Avançado</label>
     <input type="radio" name="nivel_social" value="Avançado" required>
     <label for="Neutro" style="white-space:nowrap;text-shadow:9px;color:white;font-size:14px;">Neutro</label>
     <input type="radio" name="nivel_social" value="Neutro" required>
