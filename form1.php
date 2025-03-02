@@ -350,7 +350,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     $username='windowsemuitoruimseloko';
     $dbname='verymyplacedows';
     $password='';
-    $conn=mysqli_connect($host,$username,$password,$dbname);
+    $conn= mysqli_connect($host,$username,$password,$dbname);
     $nome=$_POST['nome']??null;
     $idade=$_POST['idade']??null;
     $etnia=$_POST['etnia']??null;

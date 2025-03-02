@@ -279,7 +279,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     $username='mybestfriend';
     $dbname='welcome';
     $password='';
-    $conn=mysqli_connect($host,$username,$password,$dbname);
+    $conn= mysqli_connect($host,$username,$password,$dbname);
     $nome=$_POST['nome']??null;
     $idade=$_POST['idade']??null;
     $estado_civil=$_POST['estado_civil']??null;
